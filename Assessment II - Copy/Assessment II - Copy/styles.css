@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap");
+/*connecting stylessheet with the html in order to style */
+body {background-color: beige;
+    background-image: url(Images/8c8279_solid_color_background_icolorpalette.webp);
+/*used background from https://www.icolorpalette.com/download/solidcolorimage/8c8279_solid_color_background_icolorpalette.png*/
+padding: 0;
+padding-top: 0;
+margin: 0;
+font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+/*Used Verdana and 4 other font options*/
+
+*{
+margin: 0 auto;
+padding: 0 auto;
+padding-bottom: 0;
+;
+}
+/*layout of page styiling and deciding layout of borders of the page*/
+
+
+.navbar li{
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    
+}
+/*styling of navigation bar list */
+
+.navbar a {
+    width: 100px;
+    height: 10px;
+    color: bisque;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0;
+    font-size: 15px;
+}
+/*styling of navigation bar colour of text buttons, font colour and display  */
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 10px;
+}
+/*styling of navigation bar list and text position */
+
+.navbar{background-image: url(Images/Brown-Backgrounds10.webp);
+    width:auto;
+    height: 50px;
+    }
+/* Image inserted from http://www.hdwallpaper.nu/brown-wallpapers to style navbar background further*/
+
+h1 {
+color:black;
+text-decoration: underline;
+text-align: center;
+display: block;
+margin: auto;
+}
+/* Heading of website styiling in black font colour, underlined text and centered position */
+p {
+    padding: 30px;
+    padding-top: 0px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    color: bisque;
+    text-align: justify;
+
+    
+}
+
+.Restaurant {
+    width: 700px ;
+    height: auto;
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+    align-content: center;
+}
+/*styiling of main photograph of landingpage, size position in page and distances to the margins */
+
+.footer {font-size: 8px;
+text-align: center;
+right: 0;
+left: 0;
+bottom: 0;}
+
+/*positioning and sizing of footer*/
+
+
+@media only screen and (min-width: 601px) 
+and (max-width: 900px) {
+ body {background-color: beige;
+    background-image: url(Images/8c8279_solid_color_background_icolorpalette.webp);
+/*used background from https://www.icolorpalette.com/download/solidcolorimage/8c8279_solid_color_background_icolorpalette.png*/
+padding: 0;
+padding-top: 0;
+margin: 0;
+font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+/*Used Verdana and 4 other font options*/
+
+*{
+margin: 0 auto;
+padding: 0 auto;
+padding-bottom: 0;
+;
+}
+/*layout of page styiling and deciding layout of borders of the page*/
+
+
+.navbar li{
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    
+}
+/*styling of navigation bar list */
+
+.navbar a {
+    width: 100%;
+    height: 10px;
+    color: bisque;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0;
+    font-size: 15px;
+}
+
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 10%;
+}
+
+
+.navbar{background-image: url(Images/Brown-Backgrounds10.webp);
+    width:100%;
+    height: 50px;
+}
+
+h1 {
+color:black;
+text-decoration: underline;
+text-align: center;
+display: block;
+margin: auto;
+}
+
+p {
+    padding: auto;
+    padding-top: 0px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    color: bisque;
+    text-align: justify;
+
+    
+}
+
+.Restaurant {
+    width: 100% ;
+    height: auto;
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+    align-content: center;
+}
+
+.footer {font-size: 10%;
+text-align: center;
+right: 0;
+left: 0;
+bottom: 0;}
+
+
+
+
+
+ }
+ /*media query for smaller device inspired from class sessions https://bbk-main-mdl-euwest2.s3.eu-west-2.amazonaws.com/c1/8a/c18a3a9335df13455327553e254391b969df3acf?response-content-disposition=inline%3B%20filename%3D%22ResponsiveWebDesign.pdf%22&response-content-type=application%2Fpdf&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWRN6GJFLTLOURJFH%2F20240107%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240107T143922Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21578&X-Amz-Signature=25dae4c364834f3f4b40c437b0b41b0f6889824c35891e0ab5e9c9b92bb10f66*/
+
+ @media only screen and (max-width:601px) {
+    body {background-color: beige;
+        background-image: url(Images/8c8279_solid_color_background_icolorpalette.webp);
+    /*used background from https://www.icolorpalette.com/download/solidcolorimage/8c8279_solid_color_background_icolorpalette.png*/
+    padding: 0;
+    padding-top: 0;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+    /*Used Verdana and 4 other font options*/
+    
+    *{
+    margin: 0 auto;
+    padding: 0 auto;
+    padding-bottom: 0;
+    ;
+    }
+    /*layout of page styiling and deciding layout of borders of the page*/
+    
+    
+    .navbar li{
+        margin: 10px;
+        padding: 0;
+        text-align: center;
+        list-style: none;
+        display: inline-block;
+        
+    }
+    /*styling of navigation bar list */
+    
+    .navbar a {
+        width: 100%;
+        height: 10px;
+        color: bisque;
+        text-decoration: none;
+        display: inline-block;
+        padding: 0;
+        font-size: 15px;
+    }
+    
+    
+    .navbar ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        height: 10%;
+    }
+    
+    
+    .navbar{background-image: url(Images/Brown-Backgrounds10.webp);
+        width:100%;
+        height: 50px;
+    }
+    
+    h1 {
+    color:black;
+    text-decoration: underline;
+    text-align: center;
+    display: block;
+    margin: auto;
+    }
+    
+    p {
+        padding: auto;
+        padding-top: 0px;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        color: bisque;
+        text-align: justify;
+    
+        
+    }
+    
+    .Restaurant {
+display: none;
+    }
+    
+    .footer {font-size: 10%;
+    text-align: center;
+    right: 0;
+    left: 0;
+    bottom: 0;}
+    
+    
+    
+    
+    
+     }  
+ /*media query for smaller devices have been added and adjusted where instead of px percentage has been used as recommendet in https://www.youtube.com/watch?v=UUjNEMXZA-k*/
+ /*images have been taken out as display:none in oder to keep the layout of essential elements more visable */
+
+  

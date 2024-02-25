@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap");
+body {background-color: beige;
+    background-image: url(Images/8c8279_solid_color_background_icolorpalette.webp);
+
+padding: 0;
+padding-top: 0;
+margin: 0;
+font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+*{
+margin: 0 auto;
+padding: 0 auto;
+padding-bottom: 50px;
+;
+}
+
+
+.navbar li{
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.navbar a {
+    width: 100px;
+    height: 10px;
+    color: bisque;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0;
+    font-size: 15px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 10px;
+}
+
+ .navbar{background-image: url(Images/Brown-Backgrounds10.webp);
+width:auto;
+height: 10px;
+}
+
+h1 {
+color:black;
+text-decoration: underline;
+text-align: center;
+display: block;
+margin: auto;
+}
+
+h2 {
+
+text-align: center;
+display: block;
+margin: auto;
+
+}
+.Ibrahim {
+    width: 250px;
+    justify-items: center;
+    align-items: center;
+}
+    /*Photofgraph inserted, author's own*/
+
+
+.footer {font-size: 8px;
+    text-align: center;
+    right: 0;
+    left: 0;
+    bottom: 0;}
+
+    @media only screen and (min-width: 601px) 
+    and (max-width: 900px) {
+
+        body {background-color: beige;
+            background-image: url(Images/8c8279_solid_color_background_icolorpalette.webp);
+        
+        padding: 0;
+        padding-top: 0;
+        margin: 0;
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+        }
+        
+        *{
+        margin: 0 auto;
+        padding: 0 auto;
+        padding-bottom: 50px;
+        ;
+        }
+        
+        
+        .navbar li{
+            margin: auto;
+            padding: 0;
+            text-align: center;
+            list-style: none;
+            display: inline-block;
+            
+        }
+        
+        .navbar a {
+            width: 100%;
+            height: auto;
+            color: bisque;
+            text-decoration: none;
+            display: inline-block;
+            padding: 0;
+            font-size: 15px;
+        }
+        
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            height: 10px;
+        }
+        
+         .navbar{background-image: url(Images/Brown-Backgrounds10.webp);
+        width:auto;
+        height: auto;
+        }
+        
+        h1 {
+        color:black;
+        text-decoration: underline;
+        text-align: center;
+        display: block;
+        margin: auto;
+        }
+        
+        h2 {
+        
+        text-align: center;
+        display: block;
+        margin: auto;
+        
+        }
+        .Ibrahim {
+         display: none;
+        }
+            /*Photofgraph inserted, author's own*/
+        
+        
+        .footer {font-size: 8px;
+            text-align: center;
+            right: 0;
+            left: 0;
+            bottom: 0;}
+
+    }
+
+    @media only screen and (max-width:601px) {
+
+        body {background-color: beige;
+            background-image: url(Images/8c8279_solid_color_background_icolorpalette.webp);
+        
+        padding: 0;
+        padding-top: 0;
+        margin: 0;
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+        }
+        
+        *{
+        margin: 0 auto;
+        padding: 0 auto;
+        padding-bottom: 0;
+        ;
+        }
+        
+        
+        .navbar li{
+            margin: auto;
+            padding: 0;
+            text-align: center;
+            list-style: none;
+            display: inline-block;
+            
+        }
+        
+        .navbar a {
+            width: 100%;
+            height: auto;
+            color: bisque;
+            text-decoration: none;
+            display: inline-block;
+            padding: 0;
+            font-size: auto;
+        }
+        
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            height: auto;
+        }
+        
+         .navbar{background-image: url(Images/Brown-Backgrounds10.webp);
+        width:auto;
+        height: 10px;
+        }
+        
+        h1 {
+        color:black;
+        text-decoration: underline;
+        text-align: center;
+        display: block;
+        margin: auto;
+        }
+        
+        h2 {
+        
+        text-align: center;
+        display: block;
+        margin: auto;
+        
+        }
+        .Ibrahim {
+          display: none;
+        }
+            /*Photofgraph inserted, author's own*/
+        
+        
+        .footer {font-size: 10%;
+            text-align: center;
+            right: 0;
+            left: 0;
+            bottom: 0;}
+    }
+     /*media query for smaller devices have been added and adjusted where instead of px percentage has been used as recommendet in https://www.youtube.com/watch?v=UUjNEMXZA-k*/
+ /*images have been taken out as display:none in oder to keep the layout of essential elements more visable */
